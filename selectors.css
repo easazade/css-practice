@@ -1,0 +1,20 @@
+#name{
+    text-align: right;
+    color: slateblue;
+}
+
+.center{
+    text-align: center;
+    color: violet;
+}
+
+p.center{
+    text-align: center;
+    color:tomato;
+}
+
+p,h1,h2{
+    text-align: center;
+    color: mediumseagreen;
+}
+

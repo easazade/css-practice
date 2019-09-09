@@ -1,0 +1,27 @@
+/*
+All the margin properties can have the following values:
+
+auto - the browser calculates the margin
+length - specifies a margin in px, pt, cm, etc.
+% - specifies a margin in % of the width of the containing element
+inherit - specifies that the margin should be inherited from the parent element
+Tip: Negative values are allowed.
+ */
+
+
+p{
+    margin: 10px 20px 10px 20px; /* top right bottom left*/
+}
+
+p{
+    margin: 10px 20px; /* top-bottom left-right */
+}
+
+p{
+    margin: 10px auto 10px; /* top left-right bottom*/
+}
+
+h1{
+    margin: inherit;
+}
+
