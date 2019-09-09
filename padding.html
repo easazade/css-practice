@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>padding</title>
+  <style>
+    div{
+      width: 300px;
+      height: 200px;
+      background: mediumvioletred;
+      padding: 20px;
+    }
+    div.boxedin {
+      box-sizing: border-box;
+    }
+
+    div.line300px{
+      background-color: #ff5512;
+      color: #000;
+      width: 300px;
+      height: 2px;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+applying padding alongside box-sizing with value of border-content will increase the element size . box-sizing is border-content by default
+<div>awdwad</div>
+<br>
+<span>300px line</span>
+<div class="line300px"></div>
+<br>
+applying padding alongside box-sizing with value of border-box will keep the element size the same
+<div class="boxedin">awdawd</div>
+<br>
+</body>
+</html>

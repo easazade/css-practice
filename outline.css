@@ -1,0 +1,18 @@
+p {
+    margin: 30px;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px; /* outline is just like border but it is drawn around the border */
+}
+
+/*
+difference of outline and border
+
+The CSS outline property is a confusing property.
+When you first learn about it, it's hard to understand how it is even remotely different from the border property.
+The W3C explains it as having the following differences:
+
+1.Outlines do not take up space.
+
+2.Outlines may be non-rectangular.
+ */

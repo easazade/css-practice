@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>box model</title>
+</head>
+<body>
+
+<div class="w3-boxmodel">
+  <div style="text-align: center;width: 100%;">margin</div>
+  <div style="padding: 45px;background-color: #ff5512">
+    <div style="text-align: center;width: 100%;">border</div>
+    <div style="padding: 45px;background-color: #ff5">
+      <div style="text-align: center;width: 100%;">padding</div>
+      <div style="padding: 45px;background-color: rgba(214,89,89,0.88)">
+        <div style="text-align: center;width: 100%;">content</div>
+        <div style="padding: 45px;background-color: #572">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<h2>
+Explanation of the different parts:
+</h2>
+<ul>
+<li>Content - The content of the box, where text and images appear</li>
+<li>Padding - Clears an area around the content. The padding is transparent</li>
+<li>Border - A border that goes around the padding and content</li>
+<li>Margin - Clears an area outside the border. The margin is transparent</li>
+<li>The box model allows us to add a border around elements, and to define space between elements.</li>
+</ul>
+<p>
+  Important: When you set the width and height properties of an element with CSS, you just set the width and
+  height of the content area. To calculate the full size of an element, you must also add padding, borders and margins.
+</p>
+
+<pre>
+  The total width of an element should be calculated like this:
+
+Total element width = width + left padding + right padding + left border + right border + left margin + right margin
+
+The total height of an element should be calculated like this:
+
+Total element height = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
+</pre>
+
+</body>
+</html>
