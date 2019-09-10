@@ -1,0 +1,58 @@
+/*
+Serif -> these fonts have small lines at the ends on some characters
+Sans-serif -> "Sans" means without - these fonts do not have the lines at the ends of characters
+Monospace-> All monospace characters have the same width
+ */
+
+
+p {
+    font-family: "Times New Roman", Times, serif; /*if font name is more than one word it should be in quotation */
+}
+
+/*font-size
+Note: If you do not specify a font size, the default size for normal text, like paragraphs, is 16px (16px=1em)
+
+In the example below, the text size in em is the same as the previous example in pixels.
+However, with the em size, it is possible to adjust the text size in all browsers
+
+ */
+
+h1 {
+    font-size: 2.5em; /* 40px/16=2.5em */
+}
+
+h2 {
+    font-size: 1.875em; /* 30px/16=1.875em */
+}
+
+p {
+    font-size: 0.875em; /* 14px/16=0.875em */
+}
+
+/*the benefit of using em instead of pixels is that we can change the size ratio ourselves
+if we set the parent tag font-size value based on percent like body tag
+*/
+
+body {
+    font-size: 100%;
+}
+
+/*font-weight*/
+p {
+    font-weight: bold;
+}
+
+/*vw font sizing
+if we want our font size to follow the size of the browser window size we can use vw (viewport width) instead of em and px*/
+
+h1 {
+    font-size: 14vw; /* 1vw = 1% of viewport width */
+}
+
+/* font-variant
+In a small-caps font, all lowercase letters are converted to uppercase letters. However, the converted uppercase
+letters appears in a smaller font size than the original uppercase letters in the text.*/
+
+h2 {
+    font-variant: small-caps;
+}

@@ -1,0 +1,65 @@
+/* text-align */
+/*we use text-align property to set text alignment : center left right justify*/
+p {
+    text-align: justify; /*justify sets the text alignment like a newspaper column so each line has same width*/
+}
+
+p {
+    text-decoration: line-through;
+}
+
+/*text-transform can be used to turn everything into uppercase or lowercase letters,
+or capitalize the first letter of each word:*/
+
+p {
+    text-transform: capitalize;
+}
+
+p {
+    text-indent: 50px; /* setting indentation for the first line */
+}
+
+/* specify spacing between characters */
+
+h1 {
+    letter-spacing: 3px;
+}
+
+h2 {
+    letter-spacing: -3px;
+}
+
+/*specify the line-height of the text . no need for px or em just the value like 2.0*/
+
+p{
+    line-height: normal;
+}
+
+p{
+    line-height: 1.5;
+}
+
+/*direction*/
+
+p{
+    direction: rtl;
+}
+
+/*word-spacing*/
+
+h1 {
+    word-spacing: 10px;
+}
+
+/*The following example specifies the position of the horizontal shadow (3px), the position of
+the vertical shadow (2px) and the color of the shadow (red):*/
+
+h1 {
+    text-shadow: 3px 2px red;
+}
+
+/* how to remove paragraph wrapping */
+
+p{
+    white-space: nowrap;
+}
