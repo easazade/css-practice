@@ -30,9 +30,14 @@
 <a href="image_text_alignment.html">image text alignment</a>
 <a href="font_icon.html">font icon</a>
 <a href="bootstrap_icons.html">Bootstrap Icons</a>
+<br>
+<br>
+<br>
 <a href="google_icons.html">Google Icons</a>
 <a href="cursors.html">Cursors</a>
 <a href="lists.html">Lists</a>
 <a href="styled_lists.html">Styled Lists</a>
+<a href="tables.html">Tables</a>
+<a href="display.html">Display</a>
 </body>
 </html>

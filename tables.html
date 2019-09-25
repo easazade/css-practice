@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tables</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      caption-side: top;
+      table-layout: fixed; /* loads all cells then shows the table better UX */
+      empty-cells: hide;
+    }
+
+    th, td {
+      text-align: center;
+      padding: 8px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    td{
+      height: 45px;
+      vertical-align: bottom;
+    }
+    /*For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:*/
+    tr:nth-child(even){background-color: #f2f2f2}
+
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Colored Table Header</h2>
+
+<pre>
+  Tip: The main benefit of table-layout: fixed; is that the table renders much faster.
+  On large tables, users will not see any part of the table until the browser has rendered the whole table.
+  So, if you use table-layout: fixed, users will see the top of the table while the browser loads and renders rest of
+  the table. This gives the impression that the page loads a lot quicker!
+</pre>
+
+<div  style="width: 500px;overflow-x: auto;">
+  <table>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Savings</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Griffin</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>Lois</td>
+      <td>Griffin</td>
+      <td>$150</td>
+    </tr>
+    <tr>
+      <td>Joe</td>
+      <td>Swanson</td>
+      <td>$300</td>
+    </tr>
+    <tr>
+      <td>Cleveland</td>
+      <td></td>
+      <td>$250</td>
+    </tr>
+    <tr>
+      <td>Cleveland</td>
+      <td>Brown</td>
+      <td>Cleveland</td>
+      <td>Brown</td>
+      <td>$250</td>
+      <td>Cleveland</td>
+      <td>Brown</td>
+      <td>$250</td>
+      <td>$250</td>
+    </tr>
+    <tr>
+      <td>Cleveland</td>
+      <td>Brown</td>
+      <td>$250</td>
+      <td>Cleveland</td>
+      <td>Brown</td>
+      <td>$250</td>
+      <td>Cleveland</td>
+      <td>Brown</td>
+      <td>Cleveland</td>
+      <td>Brown</td>
+      <td>$250</td>
+    </tr>
+    <caption>table caption</caption>
+  </table>
+
+</div>
+
+</body>
+</html>
