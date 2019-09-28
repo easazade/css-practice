@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Display</title>
+  <style>
+    p{
+      width: 500px;
+    }
+div.ex1 {
+  width:500px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+
+div.ex2 {
+  max-width:500px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+  </style>
+</head>
+<body>
+  <p>Display is an attribute to define visibility of the element</p>
+  <br>
+<p>
+  The display property specifies if/how an element is displayed.
+  Every HTML element has a default display value depending on what type of element it is.
+  The default display value for most elements is block or inline.
+</p>
+<h2>A block-level element always starts on a new line and takes up the full 
+  width available (stretches out to the left and right as far as it can)</h2>
+<h2>some of the block level elements are</h2>
+<ul>
+  <li>div</li>
+  <li>h1 - h6</li>
+  <li>p</li>
+  <li>form</li>
+  <li>header</li>
+  <li>footer</li>
+  <li>li</li>
+  <li>section</li>
+</ul>
+<h2>An inline element does not start on a new line and only takes up as much width as necessary</h2>
+<h2>some of the inline elements are</h2>
+<ul>
+  <li>span</li>
+  <li>a</li>
+  <li>img</li>
+</ul>
+<p>Hiding an element can be done by setting the display property to none. The element will be hidden, 
+  and the page will be displayed as if the element is not there</p>
+<p>
+    However, the element will still take up the same space as before. The element will be hidden
+    , but still affect the layout
+</p>
+
+<h2 style="color:red">Using width, max-width and margin: auto;</h2>
+<br>
+<p>
+    As mentioned in the previous chapter; a block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+
+    Setting the width of a block-level element will prevent it from stretching out to the edges of its container. Then, you can set the margins to auto,
+     to horizontally center the element within its container. The element will take up the specified width, and
+      the remaining space will be split equally between the two margins
+</p>
+<br>
+<p>
+    Note: The problem with the <div> above occurs when the browser window is smaller than the width of the element. The browser then adds a horizontal scrollbar to the page.
+
+        Using max-width instead, in this situation, will improve the browser's handling of small windows. This is important when making a site usable on small devices:
+</p>
+
+<br>
+
+<div class="ex1">This div element has width: 500px;</div>
+<br>
+
+<div class="ex2">This div element has max-width: 500px;</div>
+
+<p><strong>Tip:</strong> Drag the browser window to smaller than 500px wide, to see the difference between 
+the two divs!</p>
+
+</body>
+</html>

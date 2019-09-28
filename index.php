@@ -38,6 +38,15 @@
 <a href="lists.html">Lists</a>
 <a href="styled_lists.html">Styled Lists</a>
 <a href="tables.html">Tables</a>
-<a href="display.html">Display</a>
+<br>
+<br>
+<h2>positioning and alignment</h2>
+
+<a href="display_and_basic_positioning.html">display property and basic positioning</a>
+<a href="position.html">position</a>
+<a href="overflow.html">overflow</a>
+<a href="float_and_clear.html">float & clear</a>
+<a href="layout_clear_fix.html">layout clear fix</a>
+<a href="inline-block.html">display : inline-block</a>
 </body>
 </html>
