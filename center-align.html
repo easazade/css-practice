@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Align</title>
+  <link rel="stylesheet" href="note_styles.css" type="text/css">
+  <style>
+    .center {
+      margin: auto;
+      width: 60%;
+      border: 3px solid #73AD21;
+      padding: 10px;
+    }
+
+    img {
+      max-width: 30%;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .center-vertical {
+      padding: 70px 0;
+      border: 3px solid green;
+    }
+
+    .center-text {
+      padding: 70px 0;
+      border: 3px solid green;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<h1>Align</h1>
+<h2>Center Align Elements</h2>
+<div class="note">to make a <span class="boldword">block element</span> center align horizontally first give it a width
+  then set margin
+  to auto
+</div>
+
+<br>
+<h2>Center Align Elements</h2>
+<p>To horizontally center a block element (like div), use margin: auto;</p>
+
+<div class="center">
+  <p><b>Note: </b>Using margin:auto will not work in IE8, unless a !DOCTYPE is declared.</p>
+</div>
+<div class="note">Note: Center aligning has no effect if the <span class="boldword">width</span> property is not set (or
+  set to
+  100%).
+</div>
+<br>
+<br>
+<h2>Center Align Text</h2>
+<div class="note"> if you want to only center <span class="boldword">text</span> inside an element use
+  text-align:center;
+</div>
+
+<br>
+<br>
+<h2>center an image</h2>
+<p>To center an image, set left and right margin to auto and make it into a block element:</p>
+<img src="https://www.w3schools.com/css/paris.jpg" alt="Paris" style="width:40%">
+<br>
+<br>
+<h2>center vertically using padding</h2>
+<br>
+<div class="center-vertical">
+  <p>I am vertically centered.</p>
+</div>
+<br>
+<br>
+<h2>center both vertically and horizontally using padding and text-align</h2>
+<br>
+<div class="center-text">
+  <p>I am vertically centered.</p>
+</div>
+<br>
+<br>
+<a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_align_line-height"><h2>click here to learn how to
+  center using line-height</h2></a>
+<br>
+<br>
+<br>
+<h2>using positioning and transform property</h2>
+<div style="height: 200px;  position: relative; border: 3px solid green; ">
+  <p style="margin: 0;  position: absolute;top: 50%;  left: 50%;  -ms-transform: translate(-50%, -50%);  transform: translate(-50%, -50%);">
+    I am vertically and horizontally centered.
+  </p>
+</div>
+</body>
+</html>

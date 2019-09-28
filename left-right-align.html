@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Left and right align</title>
+  <link rel="stylesheet" href="note_styles.css" type="text/css">
+  <style>
+    .right {
+      position: absolute;
+      right: 0px;
+      width: 300px;
+      border: 3px solid #73AD21;
+      padding: 10px;
+    }
+
+    .right-float {
+      float: right;
+      width: 300px;
+      border: 3px solid #73AD21;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+<h1>Left and Right Aligning</h1>
+<div class="note">there are different methods for left and right aligning</div>
+<br>
+<h2>using Position: absolute</h2>
+<div class="right">
+  <p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever
+    since.</p>
+</div>
+<br>
+<br>
+<br>
+<h2>using Float</h2>
+<div class="right-float">
+  <p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever
+    since.</p>
+</div>
+<br>
+<div class="note">
+  Note: If an element is taller than the element containing it, and it is floated, it will overflow outside of its
+  container. You can use the "clearfix" hack to fix this (see example below).
+</div>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

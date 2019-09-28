@@ -48,5 +48,16 @@
 <a href="float_and_clear.html">float & clear</a>
 <a href="layout_clear_fix.html">layout clear fix</a>
 <a href="inline-block.html">display : inline-block</a>
+<br>
+<br>
+<br>
+<a href="navigation-with-inline-block.html">create nav menu with inline-block</a>
+<a href="center-align.html">Center Aligning elements and text</a>
+<a href="left-right-align.html">Left and Right Aligning</a>
+<br>
+<br>
+<br>
+<a href="https://www.w3schools.com/css/css_combinators.asp" target="_blank">css combinators</a>
+
 </body>
 </html>
