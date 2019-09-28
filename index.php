@@ -57,7 +57,9 @@
 <br>
 <br>
 <br>
+<h2>other css properties and tricks</h2>
 <a href="https://www.w3schools.com/css/css_combinators.asp" target="_blank">css combinators</a>
+<a href="pseudo-classes.html" target="_blank">pseudo classes</a>
 
 </body>
 </html>

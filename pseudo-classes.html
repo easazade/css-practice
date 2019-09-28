@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pseudo-classes</title>
+  <link href="note_styles.css" rel="stylesheet">
+  <style>
+    .tooltip {
+      display: none;
+      background-color: yellow;
+      padding: 20px;
+    }
+
+    div:hover p.tooltip {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+<h1>Pseudo-classes</h1>
+<p>
+  an html element can have different states in when it is rendered in DOM. we do not have know what state it could be
+  at each time but we can set it to behave as we want on those states. these states are defined by pseudo-classes
+</p>
+<p>for example a pseudo class can be used to :</p>
+<ul>
+  <li>Style an element when a user mouses over it</li>
+  <li>Style visited and unvisited links differently</li>
+  <li>Style an element when it gets focus</li>
+</ul>
+
+<div class="note">Note: <span class="boldword">a:hover</span> MUST come after a:link and <span class="boldword">a:visited</span>
+  in the CSS definition in order to be effective!
+  <span class="boldword">a:active</span> MUST come after <span class="boldword">a:hover</span> in the CSS definition in
+  order to be effective! Pseudo-class names are not
+  case-sensitive
+</div>
+
+<br>
+<br>
+<br>
+
+<pre>
+  an example of pseudo classes :
+  a.highlight:hover {
+  color: #ff0000;
+  }
+</pre>
+
+<br>
+<br>
+<br>
+
+<p>pseudo classes can be used to take an state as an event and plan an action based on that like showing a tool tip
+  when hovering over a div element</p>
+
+<div style="border: 3px solid greenyellow">
+  hover over me
+  <p class="tooltip">and this is the tool tip</p>
+</div>
+
+<br>
+<br>
+<p>there are a lot of pseudo classes check them out
+  <a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">here</a>
+  at the bottom of page
+</p>
+<br>
+<br>
+
+</body>
+</html>
