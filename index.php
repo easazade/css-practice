@@ -59,7 +59,15 @@
 <br>
 <h2>other css properties and tricks</h2>
 <a href="https://www.w3schools.com/css/css_combinators.asp" target="_blank">css combinators</a>
-<a href="pseudo-classes.html" target="_blank">pseudo classes</a>
+<a href="pseudo-classes.html">pseudo classes</a>
+<a href="pseudo-elements.html">pseudo elements</a>
+<a href="https://www.w3schools.com/css/css_image_transparency.asp" target="_blank">transparency</a>
+<a href="https://www.w3schools.com/css/css_navbar.asp" target="_blank">all types of nav bars</a>
+<a href="https://www.w3schools.com/css/css_dropdowns.asp" target="_blank">drop downs</a>
+<a href="attribute-selectors.html">attribute selectors</a>
+<a href="css-counters.html">css counter</a>
+<a href="https://www.w3schools.com/css/css_form.asp" target="_blank">styling forms</a>
+
 
 </body>
 </html>
