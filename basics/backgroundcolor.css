@@ -9,17 +9,17 @@ background-position
  */
 
 body {
-    background-image: url("planet3.png");
+    background-image: url("basics/planet3.png");
     background-repeat: repeat-x; /* repeats image only horizontally */
 }
 
 body {
-    background-image: url("planet3.png");
+    background-image: url("basics/planet3.png");
     background-repeat: no-repeat; /* showing image only once */
 }
 
 body {
-    background-image: url("planet3.png");
+    background-image: url("basics/planet3.png");
     background-repeat: no-repeat;
     background-position: right top; /* setting background image position */
     background-attachment:fixed; /* specifies whether the background image should scroll or be fixed */
@@ -27,5 +27,5 @@ body {
 
 /* we can set all properties in one line */
 body {
-    background: #ffffff url("planet3.png") no-repeat right top fixed;
+    background: #ffffff url("basics/planet3.png") no-repeat right top fixed;
 }

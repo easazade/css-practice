@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rounded Corners</title>
+  <style>
+    #rcorners1 {
+      border-radius: 50%;
+      background: #73AD21;
+      padding: 20px;
+      width: 200px;
+      height: 150px;
+    }
+
+    #rcorners2 {
+      border-radius: 25px 50px 75px 100px;
+      border: 2px solid #73AD21;
+      padding: 20px;
+      width: 200px;
+      height: 150px;
+    }
+
+    #rcorners3 {
+      border-radius: 25px;
+      background: url(../w3schools_logo.gif);
+      background-position: left top;
+      background-repeat: repeat;
+      padding: 20px;
+      width: 200px;
+      height: 150px;
+    }
+    #elliptical1 {
+      border-radius: 50px / 15px;
+      background: #73AD21;
+      padding: 20px;
+      width: 200px;
+      height: 150px;
+    }
+
+    #elliptical2 {
+      border-radius: 15px / 50px;
+      background: #73AD21;
+      padding: 20px;
+      width: 200px;
+      height: 150px;
+    }
+  </style>
+</head>
+<body>
+<h1>Corner Radius</h1>
+<h2>percentage value. border radius is now 50%</h2>
+<div id="rcorners1"></div>
+<br>
+<h2>different corner values</h2>
+<div id="rcorners2"></div>
+<br>
+<h2>normal example (only element has a background of image)</h2>
+<div id="rcorners3"></div>
+<br>
+<h2>elliptical corners</h2>
+<br>
+<div id="elliptical1"></div>
+<br>
+<div id="elliptical2"></div>
+</body>
+</html>

@@ -24,50 +24,54 @@
 <br>
 <br>
 <br>
-<a href="padding.html">padding</a>
-<a href="height_and_width.html">height and width</a>
-<a href="box_model.html">box model</a>
-<a href="image_text_alignment.html">image text alignment</a>
-<a href="font_icon.html">font icon</a>
-<a href="bootstrap_icons.html">Bootstrap Icons</a>
+<a href="basics/padding.html">padding</a>
+<a href="basics/height_and_width.html">height and width</a>
+<a href="basics/box_model.html">box model</a>
+<a href="basics/image_text_alignment.html">image text alignment</a>
+<a href="basics/font_icon.html">font icon</a>
+<a href="basics/bootstrap_icons.html">Bootstrap Icons</a>
 <br>
 <br>
 <br>
-<a href="google_icons.html">Google Icons</a>
-<a href="cursors.html">Cursors</a>
-<a href="lists.html">Lists</a>
-<a href="styled_lists.html">Styled Lists</a>
-<a href="tables.html">Tables</a>
+<a href="basics/google_icons.html">Google Icons</a>
+<a href="basics/cursors.html">Cursors</a>
+<a href="basics/lists.html">Lists</a>
+<a href="basics/styled_lists.html">Styled Lists</a>
+<a href="basics/tables.html">Tables</a>
 <br>
 <br>
 <h2>positioning and alignment</h2>
 
-<a href="display_and_basic_positioning.html">display property and basic positioning</a>
-<a href="position.html">position</a>
-<a href="overflow.html">overflow</a>
-<a href="float_and_clear.html">float & clear</a>
-<a href="layout_clear_fix.html">layout clear fix</a>
-<a href="inline-block.html">display : inline-block</a>
+<a href="basics/display_and_basic_positioning.html">display property and basic positioning</a>
+<a href="basics/position.html">position</a>
+<a href="basics/overflow.html">overflow</a>
+<a href="basics/float_and_clear.html">float & clear</a>
+<a href="basics/layout_clear_fix.html">layout clear fix</a>
+<a href="basics/inline-block.html">display : inline-block</a>
 <br>
 <br>
 <br>
-<a href="navigation-with-inline-block.html">create nav menu with inline-block</a>
-<a href="center-align.html">Center Aligning elements and text</a>
-<a href="left-right-align.html">Left and Right Aligning</a>
+<a href="basics/navigation-with-inline-block.html">create nav menu with inline-block</a>
+<a href="basics/center-align.html">Center Aligning elements and text</a>
+<a href="basics/left-right-align.html">Left and Right Aligning</a>
 <br>
 <br>
 <br>
 <h2>other css properties and tricks</h2>
 <a href="https://www.w3schools.com/css/css_combinators.asp" target="_blank">css combinators</a>
-<a href="pseudo-classes.html">pseudo classes</a>
-<a href="pseudo-elements.html">pseudo elements</a>
+<a href="basics/pseudo-classes.html">pseudo classes</a>
+<a href="basics/pseudo-elements.html">pseudo elements</a>
 <a href="https://www.w3schools.com/css/css_image_transparency.asp" target="_blank">transparency</a>
 <a href="https://www.w3schools.com/css/css_navbar.asp" target="_blank">all types of nav bars</a>
 <a href="https://www.w3schools.com/css/css_dropdowns.asp" target="_blank">drop downs</a>
-<a href="attribute-selectors.html">attribute selectors</a>
-<a href="css-counters.html">css counter</a>
+<a href="basics/attribute-selectors.html">attribute selectors</a>
+<a href="basics/css-counters.html">css counter</a>
 <a href="https://www.w3schools.com/css/css_form.asp" target="_blank">styling forms</a>
-
+<br>
+<br>
+<br>
+<h2>advanced css</h2>
+<a href="advanced/rounded-corners.html">rounded corners</a>
 
 </body>
 </html>
