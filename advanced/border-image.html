@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Border-Image</title>
+  <link href="../note_styles.css" rel="stylesheet">
+  <style>
+    #borderimg1 {
+      border: 10px solid transparent;
+      padding: 15px;
+      border-image: url(../border.png) 30 round;
+    }
+
+    #borderimg2 {
+      border: 10px solid transparent;
+      padding: 15px;
+      border-image: url(../border.png) 30 stretch;
+    }
+    #borderimg3 {
+      border: 10px solid transparent;
+      padding: 15px;
+      border-image: url(../border.png) 50 round;
+    }
+
+    #borderimg4 {
+      border: 10px solid transparent;
+      padding: 15px;
+      border-image: url(../border.png) 20% round;
+    }
+
+    #borderimg5 {
+      border: 10px solid transparent;
+      padding: 15px;
+      border-image: url(../border.png) 30% round;
+    }
+  </style>
+</head>
+<body>
+<h1>Border Image</h1>
+<p>The CSS border-image property allows you to specify an image to be used instead of the normal border around an
+  element.</p>
+<h2>simple example</h2>
+<p id="borderimg1">this is the border image example</p>
+<p id="borderimg2">this is the border image example</p>
+<br>
+<br>
+<div class="note">Tip: The border-image property is actually a shorthand property for the border-image-source,
+  border-image-slice, border-image-width, border-image-outset and border-image-repeat properties.
+</div>
+<br>
+<br>
+<h2>border-image with different slices</h2>
+<p id="borderimg3">50 round</p>
+<p id="borderimg4">20% round</p>
+<p id="borderimg5">30% round</p>
+</body>
+</html>

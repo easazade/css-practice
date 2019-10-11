@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Multiple Background</title>
+  <link href="../note_styles.css" rel="stylesheet">
+  <style>
+    #example1 {
+      background-image: url(img_flwr.gif), url(paper.gif);
+      background-position: right bottom, left top;
+      background-repeat: no-repeat, repeat;
+      padding: 15px;
+    }
+    #example2 {
+      padding: 15px;
+      background: url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat;
+    }
+  </style>
+</head>
+<body>
+<h1>Multiple Backgrounds</h1>
+<p>CSS allows you to add multiple background images for an element, through the background-image property</p>
+<div id="example1">
+  <h1>Lorem Ipsum Dolor</h1>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+    magna aliquam erat volutpat.</p>
+  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+    commodo consequat.</p>
+</div>
+<div class="note">this example is like above but the css is written in one line</div>
+<br>
+<br>
+<div id="example2">
+  <h1>Lorem Ipsum Dolor</h1>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+    magna aliquam erat volutpat.</p>
+  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+    commodo consequat.</p>
+</div>
+</body>
+</html>

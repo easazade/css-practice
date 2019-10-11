@@ -72,6 +72,8 @@
 <br>
 <h2>advanced css</h2>
 <a href="advanced/rounded-corners.html">rounded corners</a>
+<a href="advanced/border-image.html">border image</a>
+<a href="advanced/multiple-background.html">multiple backgrounds</a>
 
 </body>
 </html>
