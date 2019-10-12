@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gradients</title>
+    <link href="../note_styles.css" rel="stylesheet"/>
+    <style>
+        #grad-default-direction {
+            width: 50%;
+            height: 200px;
+            background-image: linear-gradient(#ff464a, #fcff62);
+        }
+
+        #grad-to-right {
+            width: 50%;
+            height: 200px;
+            background-image: linear-gradient(to right, #ff464a, #fcff62);
+        }
+
+        #grad-diagonal {
+            width: 50%;
+            height: 200px;
+            background-image: linear-gradient(to bottom right, #ff39f4, #ff464a, #fcff62, #48ff24);
+        }
+
+        #grad-angle-transparent {
+            width: 50%;
+            height: 200px;
+            background-image: linear-gradient(-90deg, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+        }
+
+        #grad-repeat-percentage-color {
+            width: 50%;
+            height: 200px;
+            background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+        }
+
+        #grad-radial {
+            width: 200px;
+            height: 200px;
+            background-image: radial-gradient(circle, red, yellow, green);
+        }
+    </style>
+</head>
+<body>
+<h1>Gradients</h1>
+<div class="note">
+    <p>this is the syntax for gradients</p>
+    <pre>
+        #grad{
+        background-image: linear-gradient(direction, stopColor1, stopColor2)
+        }
+    </pre>
+</div>
+<h2>Linear Gradients</h2>
+<h3>1- default direction</h3>
+<div id="grad-default-direction"></div>
+<h3>2- to right</h3>
+<div id="grad-to-right"></div>
+<h3>3- diagonal multi color</h3>
+<div id="grad-diagonal"></div>
+<h3>4- using angle and transparent</h3>
+<div id="grad-angle-transparent"></div>
+<br>
+<br>
+<h2>Repeating Gradients</h2>
+<h3>4- repeat with specified percentage for each color</h3>
+<div id="grad-repeat-percentage-color"></div>
+<br>
+<br>
+<h2>Radial Gradients</h2>
+<h3>4- repeat with specified percentage for each color</h3>
+<p>also click <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss3_gradient-radial_size" target="_blank">
+    here </a>for ...</p>
+<div id="grad-radial"></div>
+
+</body>
+</html>

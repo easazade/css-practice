@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../note_styles.css" rel="stylesheet">
+    <title>Shadows</title>
+    <style>
+        h3.shadow-white {
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+        }
+
+        h3.bordered-text-by-shadow {
+            color: yellow;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+
+        div.simple-box-with-shadow {
+            width: 300px;
+            height: 200px;
+            background: yellow;
+            box-shadow: 10px 10px grey;
+        }
+
+        div.polaroid {
+            width: 250px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            text-align: center;
+        }
+
+        div.container {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<h1>Shadows</h1>
+<div class="note">
+    With CSS you can add shadow to text and to elements.
+    In this chapter you will learn about the following properties:
+    <ul>
+        <li>text-shadow</li>
+        <li>box-shadow</li>
+    </ul>
+</div>
+<h2>text-shadow : </h2>
+<div class="note">
+    different formats for setting text-shadow
+    <pre>
+        text-shadow: horizontal-shadow(px) vertical-shadow(px) blur(px) color;
+        text-shadow: 2px 4px;
+        text-shadow: 2px 4px black;
+        text-shadow: 2px 4px black;
+        text-shadow: 2px 4px 5px red;
+        text-shadow: 2px 4px 5px red , 4px 3px 5px purple; //multiple shadows
+    </pre>
+</div>
+<h3 class="shadow-white">this is a white text with black shadow</h3>
+<br>
+<br>
+<h2>create plain border for text by shadows</h2>
+<h3 class="bordered-text-by-shadow">this is a text that has borders. borders are created by shadows</h3>
+<br>
+<br>
+<h2>box-shadow</h2>
+<div class="simple-box-with-shadow"></div>
+<br>
+<br>
+<h2>The box-shadow property can be used to create paper-like cards:</h2>
+
+<div class="polaroid">
+    <img src="rock.jpg" alt="Norway" style="width:100%">
+    <div class="container">
+        <p>Hardanger, Norway</p>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

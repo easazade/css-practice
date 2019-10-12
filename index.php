@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Css Tutorial</title>
-  <style>
-    a, a:hover a:visited a:active {
-      background-color: #933098;
-      color: white;
-      border-radius: 3px;
-      border: 3px solid #633f80;
-      padding: 10px;
-      text-decoration: none;
-      cursor: pointer;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Css Tutorial</title>
+    <style>
+        a, a:hover a:visited a:active {
+            background-color: #933098;
+            color: white;
+            border-radius: 3px;
+            border: 3px solid #633f80;
+            padding: 10px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
 <br>
 <p>
-  only some of the examples are written in html pages and are browsable the rest are just simple css files.
-  check them out in the source code
+    only some of the examples are written in html pages and are browsable the rest are just simple css files.
+    check them out in the source code
 </p>
 <br>
 <br>
@@ -74,6 +74,11 @@
 <a href="advanced/rounded-corners.html">rounded corners</a>
 <a href="advanced/border-image.html">border image</a>
 <a href="advanced/multiple-background.html">multiple backgrounds</a>
+<a href="advanced/gradients.html">gradients</a>
+<a href="advanced/shadows.html">shadows</a>
+<a href="advanced/text-effects.html">text effects</a>
+<a href="advanced/fonts.html">fonts</a>
+<a href="advanced/2d-transformation.html">2D Transformation</a>
 
 </body>
 </html>

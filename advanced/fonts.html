@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fonts</title>
+    <link rel="stylesheet" href="../note_styles.css"/>
+    <style>
+        @font-face {
+            font-family: irsans;
+            src: url(irsans.ttf);
+        }
+
+        @font-face {
+            font-family: irsansbold;
+            src: url(irsans.ttf);
+            font-weight: bold;
+        }
+
+        p.irsans {
+            font-family: irsans, serif;
+        }
+
+        p.irsansbold {
+            font-family: irsansbold, serif;
+        }
+
+        html {
+            direction: rtl
+        }
+    </style>
+</head>
+<body>
+<h1>Fonts</h1>
+<p class="irsans">این نوشته از فونت irsans استفاده می کند</p>
+<h2>font that is bold by default</h2>
+<p class="irsansbold">این نوشته از فونت irsansbold استفاده می کند</p>
+</body>
+</html>

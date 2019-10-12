@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2D Transformation</title>
+    <style>
+        div.translate {
+            width: 300px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid black;
+            -ms-transform: translate(50px, 100px); /* IE 9 */
+            -webkit-transform: translate(50px, 100px); /* Safari prior 9.0 */
+            transform: translate(50px, 100px); /* Standard syntax */
+        }
+
+        div.rotate {
+            width: 300px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid black;
+            -ms-transform: rotate(20deg); /* IE 9 */
+            -webkit-transform: rotate(20deg); /* Safari prior 9.0 */
+            transform: rotate(20deg); /* Standard syntax */
+        }
+
+        div.scale {
+            margin: 150px;
+            width: 200px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid black;
+            -ms-transform: scale(2, 0.5); /* IE 9 */
+            -webkit-transform: scale(2, 0.5); /* Safari prior 9.0 */
+            transform: scale(2, 0.5); /* Standard syntax */
+        }
+
+        div.skew {
+            width: 300px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid black;
+            -ms-transform: skew(20deg, 10deg); /* IE 9 */
+            -webkit-transform: skew(20deg, 10deg); /* Safari prior 9.0 */
+            transform: skew(20deg, 10deg); /* Standard syntax */
+        }
+
+        div.matrix {
+            width: 300px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid black;
+            -ms-transform: matrix(1, -0.3, 0, 1, 0, 0); /* IE 9 */
+            -webkit-transform: matrix(1, -0.3, 0, 1, 0, 0); /* Safari prior 9.0 */
+            transform: matrix(1, -0.3, 0, 1, 0, 0); /* Standard syntax */
+        }
+    </style>
+</head>
+<body>
+<h1>2D Transformation</h1>
+<p>With the CSS transform property you can use the following 2D transformation methods:</p>
+<ul>
+    <li>translate()</li>
+    <li>rotate()</li>
+    <li>scaleX()</li>
+    <li>scaleY()</li>
+    <li>scale()</li>
+    <li>skewX()</li>
+    <li>skewY()</li>
+    <li>skew()</li>
+    <li>matrix()</li>
+</ul>
+<br>
+<br>
+<h2>Translate</h2>
+<div class="translate">This div element is moved 50 pixels to the right,
+    and 100 pixels down from its current position.
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2>Rotate</h2>
+<br>
+<br>
+<div class="rotate">This div element is rotated clockwise 20 degrees.</div>
+<br>
+<br>
+<br>
+<h2>Scale</h2>
+<div class="scale">This div element is two times of its original width, and 1/2 times of its original height.</div>
+
+<br>
+<h2>Skew</h2>
+<br>
+<br>
+<div class="skew">This div element is skewed 20 degrees along the X-axis, and 10 degrees along the Y-axis.</div>
+<br>
+<br>
+<br>
+<h2>matrix</h2>
+<pre>
+The matrix() method combines all the 2D transform methods into one.
+
+The matrix() method take six parameters, containing mathematic functions, which allows you to rotate, scale, move (translate), and skew elements.
+
+The parameters are as follow: matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())
+</pre>
+<br>
+<br>
+<div class="matrix">Using the matrix() method</div>
+
+
+<br>
+<br>
+</body>
+</html>

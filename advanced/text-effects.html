@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../note_styles.css" rel="stylesheet"/>
+    <title>Text Effects</title>
+    <style>
+        p.clip-text-overflow {
+            white-space: nowrap;
+            width: 200px;
+            border: 1px solid #000000;
+            overflow: hidden;
+            text-overflow: clip;
+        }
+
+        p.ellipsize-text-overflow {
+            white-space: nowrap;
+            width: 200px;
+            max-width: 200px;
+            border: 1px solid #000000;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        p.ellipsize-text-overflow:hover {
+            overflow: visible;
+        }
+
+        p.wordwrap {
+            width: 11em;
+            border: 1px solid #000000;
+            word-wrap: break-word;
+        }
+
+        p.keepall {
+            width: 140px;
+            border: 1px solid #000000;
+            word-break: keep-all;
+        }
+
+        p.breakall {
+            width: 140px;
+            border: 1px solid #000000;
+            word-break: break-all;
+        }
+
+        p.test1 {
+            writing-mode: horizontal-tb;
+        }
+
+        span.test2 {
+            writing-mode: vertical-rl;
+        }
+
+        p.test2 {
+            writing-mode: vertical-rl;
+        }
+    </style>
+</head>
+<body>
+<h1>Text Effects</h1>
+<div class="note">
+    these are the properties we are going to explain :
+    <ul>
+        <li>text-overflow</li>
+        <li>word-wrap</li>
+        <li>word-break</li>
+        <li>writing-mode</li>
+    </ul>
+</div>
+<h2>CSS text-overflow</h2>
+<p>text-overflow specifies how overflowed content should be signaled to the user like with and ellipsis or clipping</p>
+<h3>like :</h3>
+<p class="ellipsize-text-overflow">hover over me ;) this is a text that has some text in it how do we do this?</p>
+<p class="clip-text-overflow">this is a text that has some text in it how do we do this?</p>
+<br>
+<br>
+<h2>Word-Wrap</h2>
+<p>The CSS word-wrap property allows long words to be able to be broken and wrap onto the next line.
+    If a word is too long to fit within an area, it expands outside</p>
+<h3>example : </h3>
+<p class="wordwrap"> This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word
+    will
+    break and wrap to the next line.</p>
+<br>
+<br>
+<h2>word-break</h2>
+<p>The CSS word-break property specifies line breaking rules. whether to break lines in the middle of the word or
+    not</p>
+<h3>example :</h3>
+<p class="keepall">This paragraph contains some text. This line will-break-at-hyphens.</p>
+
+<p class="breakall">This paragraph contains some text. The lines will break at any character.</p>
+
+<p><b>Note:</b> The word-break property is not supported in Opera 12 and earlier versions.</p>
+<br>
+<br>
+<h2>writing-mode</h2>
+<p>The CSS writing-mode property specifies whether lines of text are laid out horizontally or vertically</p>
+<p class="test1">Some text with default writing-mode.</p>
+
+<p>Some text with a span element with a <span class="test2">vertical-rl</span> writing-mode.</p>
+
+<p class="test2">Some text with writing-mode: vertical-rl.</p>
+</body>
+</html>
