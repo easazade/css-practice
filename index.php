@@ -85,6 +85,9 @@
 <br>
 <a href="advanced/transition.html">transition</a>
 <a href="advanced/animations.html">animation</a>
+<a href="https://www.w3schools.com/css/css_tooltip.asp" target="_blank">tooltips</a>
+<a href="https://www.w3schools.com/css/css3_images.asp" target="_blank">images advanced</a>
+<a href="https://www.w3schools.com/css/css3_object-fit.asp" target="_blank">object-fit</a>
 <br>
 <br>
 <br>
