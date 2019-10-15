@@ -88,6 +88,11 @@
 <a href="https://www.w3schools.com/css/css_tooltip.asp" target="_blank">tooltips</a>
 <a href="https://www.w3schools.com/css/css3_images.asp" target="_blank">images advanced</a>
 <a href="https://www.w3schools.com/css/css3_object-fit.asp" target="_blank">object-fit</a>
+<a href="advanced/pagination.html">pagination</a>
+<a href="advanced/breadcrumbs.html">breadcrumbs</a>
+<a href="https://www.w3schools.com/css/css3_multiple_columns.asp" target="_blank">css columns</a>
+<a href="advanced/resize-&-outline.html">resize & outline</a>
+<a href="advanced/variables.html">variables</a>
 <br>
 <br>
 <br>
