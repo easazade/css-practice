@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Grid</title>
+  <link href="../note_styles.css" rel="stylesheet"/>
+  <style>
+    .header-area {
+      grid-area: header
+    }
+
+    .content-area {
+      grid-area: content
+    }
+
+    .footer-area {
+      grid-area: footer
+    }
+
+    .menu-area {
+      grid-area: menu
+    }
+
+    .grid-container {
+      display: grid;
+      grid-gap: 20px 10px;
+      grid-template-areas: 'header header header header' 'menu content content content' 'menu footer footer footer';
+      background-color: lightseagreen;
+      padding: 10px;
+    }
+
+    .grid-container > div {
+      background-color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      padding: 20px 0;
+      font-size: 28px;
+      color: #363636;
+    }
+
+    .grid-container > div.content-area {
+      min-height: 300px;
+    }
+  </style>
+</head>
+<body>
+<h1>CSS Grid</h1>
+<h2>grid layout</h2>
+<div class="grid-container">
+  <div class="header-area">header</div>
+  <div class="menu-area">menu</div>
+  <div class="content-area">content</div>
+  <div class="footer-area">footer</div>
+</div>
+<br>
+<div class="note">All direct children of the grid container automatically become grid items</div>
+<br>
+<div class="note">
+  here are different format of values we can set for grid-template-column
+  <ul>
+    <li>grid-template-columns: 80px 200px auto 30px;</li>
+    <li>grid-template-columns: auto auto auto auto;</li>
+  </ul>
+  in example above we have used <span class="boldword">grid-template-areas</span>
+  instead of <span class="boldword">grid-template-columns</span>
+</div>
+<br>
+<div class="note">
+  we use <span class="boldword">justify-content</span> and <span class="boldword">align-content</span>
+  property to set content horizontally and vertically.
+  click <a href="https://www.w3schools.com/css/css_grid_container.asp">here</a> to learn how to use
+  <span class="boldword">grid-template-columns/rows</span> instead of grid-template-areas and how to set
+  <span class="boldword">align/justify-content</span>
+</div>
+<br>
+<div class="note">if we are going to have some grid items in our grid container that have not any grid-area name
+  we can set their position in our template by referring to them by a <span class="boldword">.</span> instead grid-area
+  name in our grid-template-areas. check <a href="https://www.w3schools.com/css/css_grid_item.asp">here</a> for more
+</div>
+<br>
+<p>click to see the difference between display value of
+  <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_display_grid" target="_blank">grid</a> and
+  <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_display_inline-grid"
+     target="_blank">inline-grid</a>
+</p>
+</body>
+</html>

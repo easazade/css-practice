@@ -93,6 +93,19 @@
 <a href="https://www.w3schools.com/css/css3_multiple_columns.asp" target="_blank">css columns</a>
 <a href="advanced/resize-&-outline.html">resize & outline</a>
 <a href="advanced/variables.html">variables</a>
+<a href="advanced/flexbox.html">flexbox</a>
+<br>
+<br>
+<br>
+<a href="https://www.w3schools.com/css/css3_mediaqueries.asp" target="_blank">media queries</a>
+<a href="https://www.w3schools.com/css/css3_mediaqueries_ex.asp" target="_blank">media queries examples</a>
+<br>
+<br>
+<br>
+<h2>CSS Grid</h2>
+<a href="advanced/css-grid.html">example 1</a>
+<a href="advanced/css-grid-2.html">example 2</a>
+<br>
 <br>
 <br>
 <br>
