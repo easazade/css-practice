@@ -1,20 +1,21 @@
-*{
+* {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.boldword{
-color: red;    
+.boldword {
+    color: red;
 }
 
-div.note{
+div.note {
     position: relative;
     top: 20px;
-    bottom:20px;
+    bottom: 20px;
     height: auto;
-    width:50%;
+    width: 50%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:#363636;
+    color: #363636;
     padding: 10px;
-    background:#ffffa3;
+    background: #ffffa3;
     border-left: solid 4px yellow;
 }
+

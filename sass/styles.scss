@@ -1,0 +1,78 @@
+@import "variables";
+
+@mixin important-text($size:16px) {
+  color: red;
+  font: {
+    family: Verdana;
+    size: $size;
+  }
+  text: {
+    decoration: underline;
+  }
+}
+
+body {
+  //changing variable value will only change it in this scope. if we want to change it globally we do it differently
+  $myFont: Tahoma;
+  font-family: $myFont;
+  $myFontSize: 22px !global; //changing the value globally makes applies it to other scope as well
+  font-size: $myFontSize;
+  color: $accent;
+}
+
+div#container {
+  width: $myWidth;
+
+  div {
+    background: #4CAF50;
+    font: {
+      family: $myFont;
+      size: 18px;
+      weight: bold;
+    }
+  }
+
+  div.accent {
+    background: $accent;
+  }
+
+}
+
+//mixins
+
+div.note {
+  border-left: solid 3px yellow;
+  background: #fff59f;
+  box-sizing: border-box;
+  padding: 8px;
+
+  span.important {
+    @include important-text(17px)
+  }
+}
+
+//extends
+
+.button {
+  background: #2196F3;
+  color: white;
+
+  a {
+    text-decoration: none;
+    color: white;
+    &:hover{
+      color: white;
+    }
+  }
+
+  font: {
+    family: Tahoma;
+    size: 20px;
+    weight: bold;
+  };
+}
+
+.button-success{
+  @extend .button;
+  background: #40ad38;
+}
