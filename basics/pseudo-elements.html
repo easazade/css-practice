@@ -1,51 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>pseudo elements</title>
-  <link rel="stylesheet" href="../note_styles.css" type="text/css">
-</head>
-<body>
-<h1>pseudo elements</h1>
-<p>pseudo elements are used to define style for part of an html element like the first-line first-character of a
-  paragraph</p>
 
-<br>
-<h2>the syntax of pseudo elements</h2>
-<div class="note">
-  <pre>
+  <head>
+    <meta charset="UTF-8">
+    <title>pseudo elements</title>
+    <link rel="stylesheet" href="../note_styles.css" type="text/css">
+  </head>
+
+  <body>
+    <h1>pseudo elements</h1>
+    <p>Just like pseudo classes but with double columns like ::first-letter</p>
+    <p>pseudo elements are used to define style for part of an html element like the first-line first-character of a
+      paragraph</p>
+    <div class="note">there are only 5 pseudo elements which are as follows : </div>
+    <br>
+    <ul>
+      <li>::after</li>
+      <li>::before</li>
+      <li>::first-letter</li>
+      <li>::first-line</li>
+      <li>::selection</li>
+    </ul>
+
+    <br>
+    <h2>the syntax of pseudo elements</h2>
+    <div class="note">
+      <pre>
   selector::pseudo-element {
-  property:value;
+    // ...
   }
   </pre>
-</div>
+    </div>
+    <br>
 
-<div class="note">
-  Notice the double colon notation - <span class="boldword"> ::first-line</span> versus <span class="boldword"> :first-line</span>
+    <div class="note">
+      Notice the double colon notation - <span class="boldword"> ::first-line</span> versus <span class="boldword">
+        :first-line</span>
 
-  The double colon replaced the single-colon notation for pseudo-elements in CSS3. This was an attempt from W3C to distinguish between pseudo-classes and pseudo-elements.
+      The double colon replaced the single-colon notation for pseudo-elements in CSS3. This was an attempt from W3C to
+      distinguish between pseudo-classes and pseudo-elements.
 
-  The single-colon syntax was used for both pseudo-classes and pseudo-elements in CSS2 and CSS1.
+      The single-colon syntax was used for both pseudo-classes and pseudo-elements in CSS2 and CSS1.
 
-  For backward compatibility, the single-colon syntax is acceptable for CSS2 and CSS1 pseudo-elements.
-</div>
+      For backward compatibility, the single-colon syntax is acceptable for CSS2 and CSS1 pseudo-elements.
+    </div>
 
-<br>
-<br>
-<br>
-<h2>All Pseudo elements</h2>
 
-<div class="note">there are only 5 pseudo elements which are as follows : </div>
-<br>
-<br>
-<br>
-<ul>
-  <li>::after</li>
-  <li>::before</li>
-  <li>::first-letter</li>
-  <li>::first-line</li>
-  <li>::selection</li>
-</ul>
+  </body>
 
-</body>
 </html>

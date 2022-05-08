@@ -7,12 +7,14 @@ body {
 div#container {
   width: 250;
 }
+
 div#container div {
   background: #4CAF50;
   font-family: Helvetica, sans-serif;
   font-size: 18px;
   font-weight: bold;
 }
+
 div#container div.accent {
   background: #a07bff;
 }
@@ -23,6 +25,7 @@ div.note {
   box-sizing: border-box;
   padding: 8px;
 }
+
 div.note span.important {
   color: red;
   font-family: Verdana;
@@ -37,10 +40,12 @@ div.note span.important {
   font-size: 20px;
   font-weight: bold;
 }
+
 .button a, .button-success a {
   text-decoration: none;
   color: white;
 }
+
 .button a:hover, .button-success a:hover {
   color: white;
 }
@@ -48,5 +53,3 @@ div.note span.important {
 .button-success {
   background: #40ad38;
 }
-
-/*# sourceMappingURL=styles.css.map */
